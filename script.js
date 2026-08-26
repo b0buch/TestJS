@@ -138,15 +138,47 @@
 // }
 //summ(5,7);
 
-function summa(arr){
-    var sum = 0;
-    for(var i = 0; i < arr.length; i++){
-        sum += arr[i];
-    }
+//function summa(arr){
+//    var sum = 0;
+//    for(var i = 0; i < arr.length; i++){
+//        sum += arr[i];
+//    }
+//
+//    console.log(sum);
+//}
+//var array = [534,543,3,4];
+//var array2 = [1,2,3,4,5];
+//summa(array);
+//summa(array2);
 
-    console.log(sum);
-}
-var array = [534,543,3,4];
-var array2 = [1,2,3,4,5];
-summa(array);
-summa(array2);
+//var counter = 0;
+//
+//function onClickButton(el) {
+//   counter++;
+//
+//  el.innerHTML = "Knopf: " + counter;
+//  el.style.background = "red";
+//
+//    el.style.cssText = "border-radius: 5px; border: 0; font-size: 20px;"
+//
+//   console.log(counter);
+//   if(counter == 20){
+//      alert("+20");   
+//     }
+//}
+//
+//function onInput(el){
+//    if(el.value == "Hallo!"){
+//        alert("Hallo!");
+//    }
+//    console.log(el.value);
+//}
+
+var text = document.getElementById("text");
+text.titel = "New text";
+console.log(text.titel);
+
+text.style.color = "blue";
+text.style.backgroundColor = "black";
+
+text.innerHTML = "new<br>text";
