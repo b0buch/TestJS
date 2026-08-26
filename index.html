@@ -13,6 +13,26 @@
 
     <p id="text">Text</p>
 
+    <span class="simple">Text 1</span>
+    <span class="simple">Text 2</span>
+    <span class="simple">Text 3</span>
+
+    <form id="main-form">
+        <label for="name">name</label>
+        <input type="text" name="name" placeholder="name" id="name"><br><br>
+        <label for="password">password</label>
+        <input type="password" name="pass" placeholder="password" id="pass"><br><br>
+        <label for="repass">password check</label>
+        <input type="password" name="repass" placeholder="password check" id="repass"><br><br>
+        <span>Geschlecht</span>
+        <input type="radio" name="state" id="man" value="M">
+        <label for="man">M</label>
+        <input type="radio" name="state" id="frau" value="f">
+        <label for="frau">F</label><br><br>
+        <div id="error" style="color: red;"></div>
+        <input type="submit" name="submit" value="done">
+    </form>
+
     <script src="script.js"></script>
 </body>
 </html>

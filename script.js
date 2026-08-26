@@ -174,11 +174,69 @@
 //    console.log(el.value);
 //}
 
-var text = document.getElementById("text");
-text.titel = "New text";
-console.log(text.titel);
+//var text = document.getElementById("text");
+//text.titel = "New text";
+//console.log(text.titel);
+//
+//text.style.color = "blue";
+//text.style.backgroundColor = "black";
+//
+//text.innerHTML = "new<br>text";
+//
+//document.getElementById("text").style.color = "yellow";
+//
+//var spans = document.getElementsByTagName("span");
+//
+//var spans = document.getElementsByClassName("simple");
+//
+//for(var i = 0; i < spans.length; i++){
+//    console.log(spans[i].innerHTML);
+//}
 
-text.style.color = "blue";
-text.style.backgroundColor = "black";
+//document.getElementById("main-form").addEventListener("submit", checkForm);
+//
+//function checkForm(event){
+//    event.preventDefault();
+//    var el = document.getElementById("main-form");
+//    //var name = document.getElementById("name").value;
+//    var name = el.name.value;
+//    var pass = el.pass.value;
+//    var repass = el.repass.value;
+//    var state = el.state.value;
+//
+//    var fail = "";
+//
+//    if(name == "" || pass == "" || state == ""){
+//        fail = "Enter alle daten";
+//    }else if(name.length <= 2 || name.length > 50){
+//        fail = "Enter valide name";
+//    }else if(pass != repass){
+//        fail = "password and password check not same"
+//    }else if(pass.split("&").length > 1){
+//        fail="invalide password";
+//    }
+//
+//    if(fail != ""){
+//        document.getElementById("error").innerHTML = fail;
+//    }else{
+//        alert("evrything match")
+//        window.location = "https://www.noseryoung.ch/team/"
+//    }
+//    console.log("Name: " + name + "Password: " + pass + "State: " + state);
+//}
 
-text.innerHTML = "new<br>text";
+//setInterval(my_func, 5000);
+//
+//var counter = 0;
+//
+//function my_func(){
+//    counter++;
+//    console.log(counter);
+//}
+
+var counter = 0;
+
+//setInterval(function() {
+    counter++;
+    console.log("Seconds: " + counter);
+}, 1000);
